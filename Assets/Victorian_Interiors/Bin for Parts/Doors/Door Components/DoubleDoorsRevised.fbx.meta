@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: c9480e51a6c8f2644aa147d2963b7f0f
+timeCreated: 1451097883
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: DoorRbone
+    100012: //RootNode
+    100014: FrameBone
+    100016: Left Handlebone
+    100018: Left Handlebone_end
+    100020: LeftDoorbone
+    100022: RightHandlebone
+    100024: RightHandlebone_end
+    100026: Armature.002
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: DoorRbone
+    400012: //RootNode
+    400014: FrameBone
+    400016: Left Handlebone
+    400018: Left Handlebone_end
+    400020: LeftDoorbone
+    400022: RightHandlebone
+    400024: RightHandlebone_end
+    400026: Armature.002
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    4300000: Cube
+    4300002: Cube.003
+    4300004: Cube.002
+    4300006: Cube.004
+    4300008: Cube.001
+    7400000: DoorAction
+    7400002: Armature.002|Armature.002Action
+    7400004: Armature.002|DDFrameAction
+    7400006: Armature.002|Door_leftAction
+    7400008: Armature.002|DoorRAction
+    7400010: Armature.002|Handle_leftAction
+    7400012: Armature.002|Handle_rightAction
+    7400014: DoorOpen
+    7400016: DoorClose
+    7400018: Open
+    7400020: Close
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube.001
+    13700004: Cube.002
+    13700006: Cube.003
+    13700008: Cube.004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DoorAction
+      takeName: DoorAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|Armature.002Action
+      takeName: Armature.002|Armature.002Action
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|DDFrameAction
+      takeName: Armature.002|DDFrameAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|Door_leftAction
+      takeName: Armature.002|Door_leftAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|DoorRAction
+      takeName: Armature.002|DoorRAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|Handle_leftAction
+      takeName: Armature.002|Handle_leftAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.002|Handle_rightAction
+      takeName: Armature.002|Handle_rightAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DoorOpen
+      takeName: DoorAction
+      firstFrame: 0
+      lastFrame: 18.8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DoorClose
+      takeName: DoorAction
+      firstFrame: 18.6
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FrameBone
+        weight: 1
+      - path: FrameBone/Cube
+        weight: 1
+      - path: FrameBone/DoorRbone
+        weight: 1
+      - path: FrameBone/DoorRbone/Cube.003
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/Cube.002
+        weight: 1
+      - path: FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: FrameBone/LeftDoorbone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Cube.004
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Cube.001
+        weight: 1
+      - path: FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Open
+      takeName: DoorAction
+      firstFrame: 0
+      lastFrame: 18.5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.002
+        weight: 1
+      - path: Armature.002/FrameBone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Close
+      takeName: DoorAction
+      firstFrame: 18.3
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.002
+        weight: 1
+      - path: Armature.002/FrameBone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone/RightHandlebone
+        weight: 1
+      - path: Armature.002/FrameBone/DoorRbone/RightHandlebone/RightHandlebone_end
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone/Left Handlebone
+        weight: 1
+      - path: Armature.002/FrameBone/LeftDoorbone/Left Handlebone/Left Handlebone_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Cube
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

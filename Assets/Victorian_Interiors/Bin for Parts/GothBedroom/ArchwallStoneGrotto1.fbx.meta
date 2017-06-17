@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 8d0bc6405016dd94f861bafda4b848a2
+timeCreated: 1452755018
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WindowArch_Stone.001
+    100004: WindowArch_Stone.CollMesh
+    100006: Camera
+    100008: ColumnCollMesh
+    100010: GothFloor
+    100012: Lamp
+    100014: Plane
+    100016: Plane.003
+    100018: StoneFlareColumn
+    100020: WallSmoothLong
+    100022: WindowArch_Stone
+    100024: WindowArch_Stone.002
+    100026: WindowArch_Stone.003
+    100028: WindowArch_Stonecolmesh
+    100030: WindowArch_Stonecolmesh.001
+    400000: //RootNode
+    400002: WindowArch_Stone.001
+    400004: WindowArch_Stone.CollMesh
+    400006: Camera
+    400008: ColumnCollMesh
+    400010: GothFloor
+    400012: Lamp
+    400014: Plane
+    400016: Plane.003
+    400018: StoneFlareColumn
+    400020: WallSmoothLong
+    400022: WindowArch_Stone
+    400024: WindowArch_Stone.002
+    400026: WindowArch_Stone.003
+    400028: WindowArch_Stonecolmesh
+    400030: WindowArch_Stonecolmesh.001
+    2300000: //RootNode
+    2300002: WindowArch_Stone.001
+    2300004: WindowArch_Stone.CollMesh
+    2300006: ColumnCollMesh
+    2300008: GothFloor
+    2300010: Plane
+    2300012: Plane.003
+    2300014: StoneFlareColumn
+    2300016: WallSmoothLong
+    2300018: WindowArch_Stone
+    2300020: WindowArch_Stone.002
+    2300022: WindowArch_Stone.003
+    2300024: WindowArch_Stonecolmesh
+    2300026: WindowArch_Stonecolmesh.001
+    3300000: //RootNode
+    3300002: WindowArch_Stone.001
+    3300004: WindowArch_Stone.CollMesh
+    3300006: ColumnCollMesh
+    3300008: GothFloor
+    3300010: Plane
+    3300012: Plane.003
+    3300014: StoneFlareColumn
+    3300016: WallSmoothLong
+    3300018: WindowArch_Stone
+    3300020: WindowArch_Stone.002
+    3300022: WindowArch_Stone.003
+    3300024: WindowArch_Stonecolmesh
+    3300026: WindowArch_Stonecolmesh.001
+    4300000: Plane.003
+    4300002: WindowArch_Stone.001
+    4300004: WindowArch_Stone.CollMesh
+    4300006: WindowArch_Stonecolmesh.001
+    4300008: WindowArch_Stone.003
+    4300010: ColumnCollMesh
+    4300012: WindowArch_Stonecolmesh
+    4300014: WindowArch_Stone.002
+    4300016: StoneFlareColumn
+    4300018: WindowArch_Stone
+    4300020: Plane
+    4300022: GothFloor
+    4300024: WallSmoothLong
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
